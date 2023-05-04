@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(241, 154, 67);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title{
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    padding: 30px;
+    font-family: 'Bungee Shade', cursive;
+    color: brown;
+}
+.nav{
+font-size: 20px;
+font-weight: 700;
+}
+.nav a{
+text-decoration: none;
+margin-left: 20px;
+margin-bottom: 10px;
+padding: 10px 25px;
+background-color: rgb(237, 90, 32);
+border-radius: 15px;
+border: 1px solid  brown;
+display: inline-block;
+color: rgb(30, 38, 127);
+}
+.nav a:hover{
+    background-color: rgb(234, 127, 65);
+    border-radius: 15px;
+    border: 1px solid  rgb(241, 173, 13);
+    display: inline-block;
+    color: brown;
+}
+main article{
+        font-family: 'Bungee Shade', cursive;
+        color: brown;
+        padding: 100px 100px 200px;
+        font-size: 30px;
+}
+.main-section{
+        margin-top: 50px;
+}
+#project img{
+    height: 300px;
+}
+.project-header{
+        font-size: 32px;
+        color: greenyellow;
+        text-decoration: underline;
+        color: brown;
+}
+img{
+        margin-top: 30px;
+        border-radius: 20px;
+}
+.contact{
+    margin-top: 400px;
+}
+.contact-me{
+        font-size: 32px;
+        color: brown;
+        text-decoration: underline;
+}
+.contact-nav a{
+        text-decoration: none;
+        margin:5px 20px 10px 20px;
+        padding: 10px 20px;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(30, 38, 127);
+}
+.contact-nav a:hover{
+        font-size: 26px;
+        font-weight: 700;
+        color: darkred;
+}
+.msg{
+        font-size: 25px;
+        color: brown
+        
+}
+form input, textarea, button{
+    display: block;
+    background-color: rgb(7, 32, 70);
+    margin: 15px auto;
+    border: 2px solid greenyellow;
+    width: 50%;    
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: darkorange;
+}
+form textarea{
+    height: 150px ;
+    padding-top: 20px;
+}
+form button{
+    background-color: rgb(230, 242, 211);
+    font-size: 25px;
+    font-weight: 800;
+
+}
+form button i{
+    color: rgb(230, 242, 211);
+}
+form button:hover{
+    color: darkred;
+    font-size: 27px;
+    height: 70px;
+}
+.top-div{
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 242, 211);
+    margin: 0 20px 0px 90%;
+    font-size: 25px;
+    font-weight: 800;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.top-div a{
+    color: darkorange;
+    text-decoration: none;
+}
+.top-div a:hover{
+    color: darkred;
+}
